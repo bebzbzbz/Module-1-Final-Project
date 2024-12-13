@@ -43,11 +43,23 @@ img {
 
 a {
     text-decoration: none;
-    color: var(--light);
     transition: color .3s ease;
-}
-a:hover {
-    color: var(--primary-saturated);
+    cursor: pointer;
+
+    header &, footer & {
+        color: var(--light);
+
+        &:hover {
+            color: var(--primary-saturated);
+        }
+    }
+    main & {
+        color: var(--secondary-dark);
+        
+        &:hover {
+            color: var(--secondary-light);
+        }
+    }
 }
 
 ul {
@@ -371,6 +383,12 @@ main .blogs {
             border-radius: 12px;
             height: 50vh;
             width: 100%;
+            transition: opacity .3s ease;
+            cursor: pointer;
+
+            &:hover {
+                opacity: .7;
+            }
         }
     }
 }
@@ -534,6 +552,11 @@ footer {
         margin-left: 2rem;
         height: 62px;
         width: 62px;
+        transition: background-color .3s ease;
+
+        &:hover {
+            background-color: var(--secondary-light);;
+        }
     }
     .credits {
         justify-content: space-between;
@@ -581,19 +604,12 @@ footer {
     }
 
     header {
+        nav ul {
+            gap: .5vw;
+        }
         .topbanner {
             img {
                 display: inline;
-            }
-        }
-        nav {
-            ul {
-                display: none;
-            }
-            .burger-menu {
-                display: inline-block;
-                width: 34px;
-                height: 34px;
             }
         }
     }
@@ -652,6 +668,17 @@ footer {
 
     header {
         padding-top: 4rem;
+
+        nav {
+            ul {
+                display: none;
+            }
+            .burger-menu {
+                display: inline-block;
+                width: 34px;
+                height: 34px;
+            }
+        }
 
         .topbanner {
             font-weight: normal;
