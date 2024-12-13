@@ -30,12 +30,10 @@ let yearly = document.querySelector(".pricing .btns-container a:nth-of-type(2");
 
 function btnChange1() {
     monthly.classList.remove("active");
-    monthly.classList.add("secondary");
     yearly.classList.add("active");
 }
 
 function btnChange2() {
     yearly.classList.remove("active");
-    yearly.classList.add("secondary");
     monthly.classList.add("active");
 }
