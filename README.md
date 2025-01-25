@@ -44,15 +44,31 @@ This project showcases my skills and knowledge of HTML and CSS, including media 
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)  
 
 ## Features
-
-<!-- Ein Abschnitt, der den Designprozess und die Werkzeuge beschreibt, die für das Design des Projekts verwendet wurden. Dies könnte auch eine Erklärung enthalten, wie das Design in den Entwicklungsprozess integriert wurde. -->
+<ul>
+  <li><b>Design:</b>
+  <ul>
+    <li>Responsive layout optimized for different screens</li>
+    <li>Playful animations in topbar</li>
+    <li>Hover animations on buttons and links</li>
+  </ul>
+  </li>
+  <li><b>Functions:</b>
+  <ul>
+    <li>Go-to-top button in footer</li>
+     <li><b>Calorie calculator:</b>
+      <ul>
+        <li><b>Inputs:</b> Body size in cm, age, weight in kg, activity, gender</li>
+        <li><b>Outputs:</b> Basal metabolic rate in kcal and kJ, total daily energy expenditure in kcal and kJ</li>
+      </ul>
+    </li>
+  </ul>
+  </li>
+</ul>
 
 <div style="display: flex; justify-content: center;">
   <img src="./assets/img/readme/calculator.png" alt="Project Screenshot Calculator">
 </div>
 <br/>
-
-The design for "Back to Nature" was provided as part of the Bootcamp and created using Figma. This design served as a blueprint to guide the development of the project, ensuring a cohesive and visually appealing user experience.
 
 ## Getting Started
 
