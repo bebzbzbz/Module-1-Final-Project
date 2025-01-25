@@ -5,24 +5,27 @@ function calc() {
     let activity = Number(document.querySelector("#activity").value);
     let gender = document.querySelector("input[name=gender]:checked").value;
 
-    let basalKcal = document.querySelector("#basal-kcal");
-    let basalKj = document.querySelector("#basal-kj");
-    let totalKcal = document.querySelector("#total-kcal");
-    let totalKj = document.querySelector("#total-kj");
+    let basalKcalElem = document.querySelector("#basal-kcal");
+    let basalKjElem = document.querySelector("#basal-kj");
+    let totalKcalElem = document.querySelector("#total-kcal");
+    let totalKjElem = document.querySelector("#total-kj");
 
-    if(gender == "female") {
-        basalKcal.innerHTML = Math.ceil(655.1 + (9.6 * weight) + (1.8 * bodySize) - (4.7 * age));
-        totalKcal.innerText = Math.ceil(Number(basalKcal.innerText) * activity);
+    let basalKcal;
 
-        basalKj.innerText = Math.ceil(Number(basalKcal.innerText) * 4.184);
-        totalKj.innerText = Math.ceil(Number(totalKcal.innerText) * 4.184);
+    if(gender === "female") {
+        basalKcal = Math.ceil(655.1 + (9.6 * weight) + (1.8 * bodySize) - (4.7 * age));
     } else {
-        basalKcal.innerText = Math.ceil(66.47 + (13.7 * weight) + (5 * bodySize) - (6.8 * age));
-        totalKcal.innerText = Math.ceil(Number(basalKcal.innerText) * activity);
-
-        basalKj.innerText = Math.ceil(Number(basalKcal.innerText) * 4.184);
-        totalKj.innerText = Math.ceil(Number(totalKcal.innerText) * 4.184);
+        basalKcal = Math.ceil(66.47 + (13.7 * weight) + (5 * bodySize) - (6.8 * age));
     }
+
+    const totalKcal = Math.ceil(basalKcal * activity);
+    const basalKj = Math.ceil(basalKcal * 4.184);
+    const totalKj = Math.ceil(totalKcal * 4.184);
+
+    basalKcalElem.innerText = basalKcal;
+    totalKcalElem.innerText = totalKcal;
+    basalKjElem.innerText = basalKj,
+    totalKjElem.innerText = totalKj;
 }
 
 let monthly = document.querySelector(".pricing .btns-container a:first-of-type");
