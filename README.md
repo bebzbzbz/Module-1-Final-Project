@@ -5,27 +5,23 @@
 </div>
 <br/>
 
-<!-- Eine kurze Einführung, die das Projekt vorstellt. Diese sollte die Entstehungsgeschichte, die Motivation hinter dem Projekt und die im Projekt angewandten Fähigkeiten oder Technologien hervorheben. Ziel ist es, das Interesse der Leser zu wecken und sie neugierig auf das Projekt zu machen. -->
-<p>Back to Nature is a project born out of my passion for web development and a testament to my growth during my 6-month Web Development Bootcamp. Developed on day 20 of my Bootcamp, this project showcases the skills and knowledge I've acquired so far. <br/>
-I'm incredibly proud of this project, which highlights my ability to create responsive designs using media queries. Dive in and explore the beauty of "Back to Nature" – a reflection of my journey and dedication to becoming a great web developer. </p>
-
 ## Table of Contents 📑
 
 - [About](#about)
 - [Tech Stack](#tech-stack)
+- [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Features](#features)
 - [Deployment](#deployment)
 
 ## About
 
-<!-- Ein Abschnitt, der detaillierte Informationen über das Projekt liefert. Hier könnte der Zweck des Projekts, die verwendeten Technologien und der Entwicklungsprozess beschrieben werden. Dies gibt den Lesern einen tieferen Einblick in das Projekt. -->
+The Nutritionist Health App Project came about as the final project of the HTML and CSS module of the 6-month Web Development Bootcamp I am taking. It was developed over the course of two days on day 22 of the bootcamp.
 
-This project is a part of a Fullstack Bootcamp. It was developed over the course of a single day and was implemented solely by me. Using Visual Studio Code, I built this project with HTML and CSS, utilizing the power of Tailwind CSS for styling.
+The aim of this project was to combine the skills I have acquired over the course of the past 22 days. The result is a flexible and responsive website, which features a navigation menu that adapts to screen size, transforming into a burger menu on smaller screens, a layout adapted to tablets and smartphones and user feedback animations.
 
-The aim of this project was to practice the concepts learned in the first module of the Bootcamp, specifically HTML and CSS. The result is a flexible and responsive website that could serve as a rental platform for vans. It features a navigation menu that adapts to screen size, transforming into a burger menu on smaller screens. Additionally, it includes detailed product cards and a generally adaptive layout.
+This project showcases my skills and knowledge of HTML and CSS, including media queries, as well as one my first JavaScript programs in the shape of a calculator. I am proud of what I have accomplished in the short amount of time given and this project as a cornerstone of my path towards becoming a skillful web developer.
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%">
     <img style="width: 49%; height: auto; object-fit: contain" src="./assets/img/readme/ipad.png">
@@ -46,6 +42,17 @@ The aim of this project was to practice the concepts learned in the first module
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)   
 **Design:**  
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)  
+
+## Features
+
+<!-- Ein Abschnitt, der den Designprozess und die Werkzeuge beschreibt, die für das Design des Projekts verwendet wurden. Dies könnte auch eine Erklärung enthalten, wie das Design in den Entwicklungsprozess integriert wurde. -->
+
+<div style="display: flex; justify-content: center;">
+  <img src="./assets/img/readme/calculator.png" alt="Project Screenshot Calculator">
+</div>
+<br/>
+
+The design for "Back to Nature" was provided as part of the Bootcamp and created using Figma. This design served as a blueprint to guide the development of the project, ensuring a cohesive and visually appealing user experience.
 
 ## Getting Started
 
@@ -73,20 +80,9 @@ Before you begin, ensure you have the following installed:
 
 **You're all set! Explore the "Back to Nature" project and enjoy the journey.**
 
-## Features
-
-<!-- Ein Abschnitt, der den Designprozess und die Werkzeuge beschreibt, die für das Design des Projekts verwendet wurden. Dies könnte auch eine Erklärung enthalten, wie das Design in den Entwicklungsprozess integriert wurde. -->
-
-<div style="display: flex; justify-content: center;">
-  <img src="./assets/img/readme/calculator.png" alt="Project Screenshot Calculator">
-</div>
-<br/>
-
-The design for "Back to Nature" was provided as part of the Bootcamp and created using Figma. This design served as a blueprint to guide the development of the project, ensuring a cohesive and visually appealing user experience.
-
 ## Deployment
 
-The "Back to Nature" project is deployed using GitHub Pages, making it easily accessible to everyone.
-The live version of "Back to Nature" can be accessed here:
+This project is deployed using GitHub Pages, making it easily accessible to everyone.
+The live version of can be accessed here:
 
 https://bebzbzbz.github.io/Module-1-Final-Project/
